@@ -2,6 +2,11 @@ import streamlit as st
 import time
 import pandas as pd
 
+# Add an image above the title
+# Ensure 'profile.jpg' is in the same directory as this script
+# Display the image
+st.image("bud.jpg", use_column_width=True)
+
 # Title and Subtitle
 st.title("My Autobiography & Portfolio")
 st.subheader("Welcome to my personal page!")
